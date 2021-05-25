@@ -1,0 +1,14 @@
+#!/usr/local/bin/python3
+
+import sys
+from tracker import Tracker
+from heatmap import gen_heatmap
+
+if sys.argv[1] == "track":
+  tracker = Tracker()
+
+  for pos in tracker.track():
+          print(pos)
+elif sys.argv[1] == "heatmap":
+  gen_heatmap()
+

@@ -1,0 +1,3 @@
+pyautogui
+matplotlib
+numpy
